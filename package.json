@@ -20,6 +20,13 @@
   ],
   "author": "Oluwaseun Jayeoba",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeunJay/useCountries"
+  },
+  "bugs": {
+    "url": "https://github.com/SeunJay/useCountries/issues"
+  },
   "peerDependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
