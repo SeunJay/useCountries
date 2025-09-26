@@ -1,2 +1,4 @@
 /node_modules
 /dist
+countries-hook*.tgz
+.DS_Store
