@@ -1,17 +1,13 @@
 import { useState, useEffect } from "react";
 import { Country } from "../types/country.types";
 
-interface Params {
-  name: string;
-}
-
 interface UseCountriesResult {
   loading: boolean;
   error: string;
   country: Country[];
 }
 
-const useCountries = ({ name }: Params): UseCountriesResult => {
+const useCountries = (name: string): UseCountriesResult => {
   const [country, setCountry] = useState<Country[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");

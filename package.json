@@ -1,7 +1,7 @@
 {
   "name": "countries-hook",
   "version": "1.0.0",
-  "types": "dist/index.d.ts",
+  "types": "dist/index.js",
   "description": "A custom react hook to fetch a list of countries with details",
   "main": "index.js",
   "scripts": {
