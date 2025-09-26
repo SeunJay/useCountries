@@ -29,5 +29,5 @@ import { useCountry } from "countries-hook";
 - Get the country information from the hook:
 
 ```js
-const { loading, error, country } = useCountry('Republic Of India')'
+const { loading, error, country } = useCountry('Nigeria')'
 ```
