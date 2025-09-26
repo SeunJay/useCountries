@@ -1,6 +1,6 @@
 # countries-hook
 
-A ReactJS hook to get the country information.
+A custom react hook to get the country information.
 
 
 
