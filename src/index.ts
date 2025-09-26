@@ -1,3 +1,1 @@
-import useCountries from "./hooks/useCountries";
-
-export { useCountries };
+export { default as useCountries } from "./hooks/useCountries";

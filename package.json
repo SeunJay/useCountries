@@ -1,9 +1,13 @@
 {
   "name": "countries-hook",
   "version": "1.0.0",
-  "types": "dist/index.js",
   "description": "A custom react hook to fetch a list of countries with details",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build:dev": "rollup --config rollup.config.ts --configPlugin typescript -w --environment NODE_ENV:development",
     "build": "rollup -c --environment NODE_ENV:production"
