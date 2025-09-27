@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build:dev": "rollup --config rollup.config.ts --configPlugin typescript -w --environment NODE_ENV:development",
-    "build": "rollup -c --environment NODE_ENV:production"
+    "build": "rollup --config rollup.config.ts --configPlugin typescript --environment NODE_ENV:production"
   },
   "keywords": [
     "react",
